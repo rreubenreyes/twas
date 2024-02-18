@@ -4,6 +4,7 @@
   "description": "spending tracker for lazy people",
   "main": "dist/twas.js",
   "scripts": {
+    "preinstall": "npx only-allow pnpm",
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
